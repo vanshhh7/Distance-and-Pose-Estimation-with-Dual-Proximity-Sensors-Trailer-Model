@@ -94,7 +94,7 @@ Generate trajectory and error plots.
 **Shows the movement of the robot and trailer.**
 **Red arrows indicate trailer orientation.**
 
-![Screenshot 2025-02-27 224000](https://github.com/user-attachments/assets/7ad30051-d346-47d2-a291-081ce7599027) ![Screenshot 2025-02-27 225225](https://github.com/user-attachments/assets/844abb1b-5c9b-4f0d-b590-37e672e3e260) ![Screenshot 2025-02-27 2304100](https://github.com/user-attachments/assets/75b63748-9c8b-490b-aa1d-1543dc7ba425)
+![Screenshot 2025-02-27 224000](https://github.com/user-attachments/assets/7ad30051-d346-47d2-a291-081ce7599027)![Screenshot 2025-02-27 225225](https://github.com/user-attachments/assets/844abb1b-5c9b-4f0d-b590-37e672e3e260) ![Screenshot 2025-02-27 2304100](https://github.com/user-attachments/assets/75b63748-9c8b-490b-aa1d-1543dc7ba425)
 
 
 
