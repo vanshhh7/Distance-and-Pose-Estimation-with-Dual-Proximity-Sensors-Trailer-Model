@@ -17,7 +17,7 @@ This project simulates a mobile robot equipped with two proximity sensors and a 
 
 **Plot Visualizations:** Displays robot and trailer paths, along with distance estimation errors.
 
-Dependencies
+**Dependencies**
 
 Ensure you have the following Python libraries installed before running the simulation:
 
@@ -95,6 +95,10 @@ Robot and Trailer Path
 Shows the movement of the robot and trailer.
 
 Red arrows indicate trailer orientation.
+![Screenshot 2025-02-27 224000](https://github.com/user-attachments/assets/7ad30051-d346-47d2-a291-081ce7599027)
+![Screenshot 2025-02-27 225225](https://github.com/user-attachments/assets/844abb1b-5c9b-4f0d-b590-37e672e3e260)
+![Screenshot 2025-02-27 2304100](https://github.com/user-attachments/assets/75b63748-9c8b-490b-aa1d-1543dc7ba425)
+
 
 
 
@@ -103,9 +107,6 @@ Distance Estimation Error
 Compares estimated vs. true distance traveled.
 
 Shows estimation errors over time.
+![Screenshot 2025-02-27 230400](https://github.com/user-attachments/assets/cf89b1c8-7c27-4cfc-824f-a7b8c3e1a9fb)
 
 
-
-Ensure that the plots/ directory exists before saving the images in the script:
-    plt.savefig('plots/robot_path.png')
-    plt.savefig('plots/distance_error.png')
