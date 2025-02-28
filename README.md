@@ -1,4 +1,6 @@
 # Distance-and-Pose-Estimation-with-Dual-Proximity-Sensors-Trailer-Model
+
+
 # Introduction
 
 This project simulates a mobile robot equipped with two proximity sensors and a trailer to estimate its distance traveled and pose. The system models sensor noise, updates trailer position dynamically, and evaluates the accuracy of distance estimation using error metrics such as Mean Absolute Error (MAE) and Root Mean Square Error (RMSE). The simulation runs for a fixed number of steps, visualizing the robot's path, trailer movement, and estimation errors.
@@ -17,16 +19,17 @@ This project simulates a mobile robot equipped with two proximity sensors and a 
 
 **Plot Visualizations:** Displays robot and trailer paths, along with distance estimation errors.
 
-**Dependencies**
+# Dependencies
 
 Ensure you have the following Python libraries installed before running the simulation:
 
     pip install numpy matplotlib
 
-**How It Works**
-The project consists of three primary components:
+# How It Works
 
-**1. Proximity Sensor Simulation**
+**The project consists of three primary components:**
+
+# 1. Proximity Sensor Simulation
 
 Each wheel is equipped with a proximity sensor that measures its velocity. The measurement includes a small Gaussian noise to simulate real-world sensor inaccuracies.
 
@@ -40,7 +43,7 @@ class ProxSensor:
     def scan(self, wheel_velocity):
         self.reading = wheel_velocity + np.random.normal(0, self.noise_std)
 
-**2. Trailer Model**
+# 2. Trailer Model
 The trailer is positioned at a fixed offset from the robot and updates its orientation based on the robot's movement.
 
  
@@ -52,7 +55,7 @@ The trailer is positioned at a fixed offset from the robot and updates its orien
         self.theta_trailer = 0
 
 
-**3. Robot Motion and Pose Estimation**
+# 3. Robot Motion and Pose Estimation
 
 The robot moves forward, estimates its new position, and updates the trailer's pose. The distance traveled is estimated from sensor readings.
 
@@ -68,13 +71,13 @@ The robot moves forward, estimates its new position, and updates the trailer's p
           self.right_sensor = ProxSensor(sensor_offset)
           self.trailer = TrailerModel()
 
-**Running the Simulation**
+# Running the Simulation
 
 To execute the simulation, run the Python script:
 
     python simulation.py
 
-**The simulation will:**
+# The simulation will:
 
 Move the robot forward for 100 steps.
 
@@ -86,7 +89,7 @@ Compute estimation errors.
 
 Generate trajectory and error plots.
 
-**Plots and Visualization**
+# Plots and Visualization
 
 **The script produces two plots:**
 
@@ -104,6 +107,6 @@ Generate trajectory and error plots.
 **Shows estimation errors over time.**
 ![Screenshot 2025-02-27 230400](https://github.com/user-attachments/assets/cf89b1c8-7c27-4cfc-824f-a7b8c3e1a9fb)
 
-**Conclusion**
+# Conclusion:
 
 This simulation provides insights into distance estimation using proximity sensors and highlights the impact of sensor noise on accuracy.
