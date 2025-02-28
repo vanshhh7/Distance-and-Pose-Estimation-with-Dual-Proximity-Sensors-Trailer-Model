@@ -1,9 +1,9 @@
 # Distance-and-Pose-Estimation-with-Dual-Proximity-Sensors-Trailer-Model
-**Introduction**
+# Introduction
 
 This project simulates a mobile robot equipped with two proximity sensors and a trailer to estimate its distance traveled and pose. The system models sensor noise, updates trailer position dynamically, and evaluates the accuracy of distance estimation using error metrics such as Mean Absolute Error (MAE) and Root Mean Square Error (RMSE). The simulation runs for a fixed number of steps, visualizing the robot's path, trailer movement, and estimation errors.
 
-**Features**
+# Features
 
 **Proximity Sensor Simulation:** Two virtual proximity sensors measure wheel velocity with noise.
 
@@ -101,8 +101,9 @@ Generate trajectory and error plots.
 
 **Distance Estimation Error**
 **Compares estimated vs. true distance traveled.**
-Shows estimation errors over time.
-
+**Shows estimation errors over time.**
 ![Screenshot 2025-02-27 230400](https://github.com/user-attachments/assets/cf89b1c8-7c27-4cfc-824f-a7b8c3e1a9fb)
 
+**Conclusion**
 
+This simulation provides insights into distance estimation using proximity sensors and highlights the impact of sensor noise on accuracy.
